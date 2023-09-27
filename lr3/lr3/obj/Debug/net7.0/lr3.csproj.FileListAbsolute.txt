@@ -1,0 +1,15 @@
+C:\code\labs\lr3\lr3\bin\Debug\net7.0\lr3.exe
+C:\code\labs\lr3\lr3\bin\Debug\net7.0\lr3.deps.json
+C:\code\labs\lr3\lr3\bin\Debug\net7.0\lr3.runtimeconfig.json
+C:\code\labs\lr3\lr3\bin\Debug\net7.0\lr3.dll
+C:\code\labs\lr3\lr3\bin\Debug\net7.0\lr3.pdb
+C:\code\labs\lr3\lr3\obj\Debug\net7.0\lr3.csproj.AssemblyReference.cache
+C:\code\labs\lr3\lr3\obj\Debug\net7.0\lr3.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\labs\lr3\lr3\obj\Debug\net7.0\lr3.AssemblyInfoInputs.cache
+C:\code\labs\lr3\lr3\obj\Debug\net7.0\lr3.AssemblyInfo.cs
+C:\code\labs\lr3\lr3\obj\Debug\net7.0\lr3.csproj.CoreCompileInputs.cache
+C:\code\labs\lr3\lr3\obj\Debug\net7.0\lr3.dll
+C:\code\labs\lr3\lr3\obj\Debug\net7.0\refint\lr3.dll
+C:\code\labs\lr3\lr3\obj\Debug\net7.0\lr3.pdb
+C:\code\labs\lr3\lr3\obj\Debug\net7.0\lr3.genruntimeconfig.cache
+C:\code\labs\lr3\lr3\obj\Debug\net7.0\ref\lr3.dll
