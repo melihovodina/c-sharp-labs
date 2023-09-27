@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\labs\\lr2\\lr2\\lr2.csproj",
+      "projectUniqueName": "C:\\code\\labs\\c#\\c-sharp-labs\\lr2\\lr2\\lr2.csproj",
       "projectName": "lr2",
-      "projectPath": "C:\\code\\labs\\lr2\\lr2\\lr2.csproj",
+      "projectPath": "C:\\code\\labs\\c#\\c-sharp-labs\\lr2\\lr2\\lr2.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\labs\\lr2\\lr2\\obj\\",
+      "outputPath": "C:\\code\\labs\\c#\\c-sharp-labs\\lr2\\lr2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

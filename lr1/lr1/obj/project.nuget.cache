@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kVGNiwixEAXiR9aOAF1i5cbdHV282on9wYYmjkNAg68ECWelVL58uRVn8Q+qc6k3VLV0Dut2rZNuZHw3ivFDuA==",
+  "dgSpecHash": "v9eF6imRm0GGlpl7xE7gCaXDFdLzgbJ6oRa3Ng1F/M7//7kz1pxSS4fNs4pDN4DiyqsNtQ4WLTKhFS6DwxzpLg==",
   "success": true,
-  "projectFilePath": "C:\\code\\labs\\c#\\lr1\\lr1\\lr1.csproj",
+  "projectFilePath": "C:\\code\\labs\\c#\\c-sharp-labs\\lr1\\lr1\\lr1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

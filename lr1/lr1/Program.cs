@@ -17,18 +17,18 @@ switch (choice)
 {
     case 1:
         phi = 2 * x;
-        Console.WriteLine($"Вы выбрали функцию ϕ(x) = 2x");
+        Console.WriteLine($"Вы выбрали функцию f(x) = 2x");
         break;
     case 2:
         phi = Math.Pow(x, 2);
-        Console.WriteLine($"Вы выбрали функцию ϕ(x) = x^2");
+        Console.WriteLine($"Вы выбрали функцию f(x) = x^2");
         break;
     case 3:
         phi = x / 3;
-        Console.WriteLine($"Вы выбрали функцию ϕ(x) = x/3");
+        Console.WriteLine($"Вы выбрали функцию f(x) = x/3");
         break;
     default:
-        Console.WriteLine("Неверный выбор функции ϕ(x). По умолчанию используется ϕ(x) = 2x");
+        Console.WriteLine("Неверный выбор функции f(x). По умолчанию используется ϕ(x) = 2x");
         phi = 2 * x;
         break;
 }

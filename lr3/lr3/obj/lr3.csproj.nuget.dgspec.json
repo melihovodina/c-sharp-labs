@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\code\\labs\\lr3\\lr3\\lr3.csproj": {}
+    "C:\\code\\labs\\c#\\c-sharp-labs\\lr3\\lr3\\lr3.csproj": {}
   },
   "projects": {
-    "C:\\code\\labs\\lr3\\lr3\\lr3.csproj": {
+    "C:\\code\\labs\\c#\\c-sharp-labs\\lr3\\lr3\\lr3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\labs\\lr3\\lr3\\lr3.csproj",
+        "projectUniqueName": "C:\\code\\labs\\c#\\c-sharp-labs\\lr3\\lr3\\lr3.csproj",
         "projectName": "lr3",
-        "projectPath": "C:\\code\\labs\\lr3\\lr3\\lr3.csproj",
+        "projectPath": "C:\\code\\labs\\c#\\c-sharp-labs\\lr3\\lr3\\lr3.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\labs\\lr3\\lr3\\obj\\",
+        "outputPath": "C:\\code\\labs\\c#\\c-sharp-labs\\lr3\\lr3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
