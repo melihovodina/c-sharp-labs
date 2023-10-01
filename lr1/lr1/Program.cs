@@ -11,7 +11,7 @@ if (z < 1)
 else
     x = z + Math.Log(z);
 double phi;
-Console.Write("Выберите функцию ϕ(x): 1 - 2x, 2 - x^2, 3 - x/3: ");
+Console.Write("Выберите функцию f(x): 1 - 2x, 2 - x^2, 3 - x/3: ");
 int choice = Convert.ToInt32(Console.ReadLine());
 switch (choice)
 {

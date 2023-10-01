@@ -1,0 +1,8 @@
+C:\code\labs\c#\c-sharp-labs\lr4\lr4\bin\Debug\lr4.exe.config
+C:\code\labs\c#\c-sharp-labs\lr4\lr4\bin\Debug\lr4.exe
+C:\code\labs\c#\c-sharp-labs\lr4\lr4\bin\Debug\lr4.pdb
+C:\code\labs\c#\c-sharp-labs\lr4\lr4\obj\Debug\lr4.csproj.AssemblyReference.cache
+C:\code\labs\c#\c-sharp-labs\lr4\lr4\obj\Debug\lr4.csproj.SuggestedBindingRedirects.cache
+C:\code\labs\c#\c-sharp-labs\lr4\lr4\obj\Debug\lr4.csproj.CoreCompileInputs.cache
+C:\code\labs\c#\c-sharp-labs\lr4\lr4\obj\Debug\lr4.exe
+C:\code\labs\c#\c-sharp-labs\lr4\lr4\obj\Debug\lr4.pdb

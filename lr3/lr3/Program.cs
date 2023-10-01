@@ -34,16 +34,20 @@ void second()
             min_res = Math.Min(past, now);
             if (past > now) 
             {
-                Console.WriteLine($"{num}. x = {arg}; y = {y}; Функция убывает");
+                Console.WriteLine($"{num}. x = {Math.Round(arg, 2)}; y = {Math.Round(y, 2)}; Функция убывает");
+            }
+            else if(past < now)
+            {
+                Console.WriteLine($"{num}. x = {Math.Round(arg, 2)}; y = {Math.Round(y, 2)}; Функция возрастает");
             }
             else
             {
-                Console.WriteLine($"{num}. x = {arg}; y = {y}; Функция возрастает");
+                Console.WriteLine($"{num}. x = {Math.Round(arg, 2)}; y = {Math.Round(y, 2)}; Без изменений");
             }
         }
         else
         {
-            Console.WriteLine($"{num}. x = {arg}; y = {y}");
+            Console.WriteLine($"{num}. x = {Math.Round(arg, 2)}; y = {Math.Round(y, 2)}");
         }
         past = now;
         num++;
