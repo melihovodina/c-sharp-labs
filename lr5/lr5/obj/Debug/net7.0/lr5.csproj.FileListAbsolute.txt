@@ -1,0 +1,15 @@
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\bin\Debug\net7.0\lr5.exe
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\bin\Debug\net7.0\lr5.deps.json
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\bin\Debug\net7.0\lr5.runtimeconfig.json
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\bin\Debug\net7.0\lr5.dll
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\bin\Debug\net7.0\lr5.pdb
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\obj\Debug\net7.0\lr5.csproj.AssemblyReference.cache
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\obj\Debug\net7.0\lr5.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\obj\Debug\net7.0\lr5.AssemblyInfoInputs.cache
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\obj\Debug\net7.0\lr5.AssemblyInfo.cs
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\obj\Debug\net7.0\lr5.csproj.CoreCompileInputs.cache
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\obj\Debug\net7.0\lr5.dll
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\obj\Debug\net7.0\refint\lr5.dll
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\obj\Debug\net7.0\lr5.pdb
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\obj\Debug\net7.0\lr5.genruntimeconfig.cache
+C:\code\labs\c#\c-sharp-labs\lr5\lr5\obj\Debug\net7.0\ref\lr5.dll
