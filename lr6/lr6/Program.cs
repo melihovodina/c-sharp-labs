@@ -1,6 +1,7 @@
-﻿first();
-second();
-void first()
+﻿one();
+two();
+three();
+void one()
 {
     int sum = 0;
     Console.Write("Введите длинну массива: ");
@@ -17,7 +18,7 @@ void first()
     }
     Console.WriteLine($"Сумма элемнтов массива: {sum}");
 }
-void second()
+void two()
 {
     int num = 0;
     Console.Write("Введите кол-во строк массива: ");
@@ -45,4 +46,30 @@ void second()
             num++;
     }
     Console.WriteLine($"Кол-во столбцов, содержащие ноль: {num}");
+}
+void three()
+{
+    int[] arr1 = new int[10];
+    int[] arr2 = new int[10];
+    int[] arr3 = new int[10];
+    Random rnd = new Random();
+    for (int i = 0; i < 10; i++)
+    {
+        arr1[i] = rnd.Next(0, 100);
+        arr2[i] = rnd.Next(0, 100);
+        arr3[i] = rnd.Next(0, 100);
+    }
+    Console.WriteLine($"Кол-во нулей в первом массиве: {zero(arr1)}");
+    Console.WriteLine($"Кол-во нулей во втором массиве: {zero(arr2)}");
+    Console.WriteLine($"Кол-во нулей в третьем массиве: {zero(arr3)}");
+}
+int zero(int[] arr)
+{
+    int num = 0;
+    for(int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i] == 0)
+            num++;
+    }
+    return num;
 }
