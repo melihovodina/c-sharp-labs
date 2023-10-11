@@ -7,16 +7,33 @@ void one()
     Console.Write("Введите длинну массива: ");
     int n = Convert.ToInt32(Console.ReadLine());
     int[] arr = new int[n];
+    int first = 0;
+    int last = 0;
     Console.WriteLine("Введите элементы массива");
     for (int i = 0; i < n; i++)
     {
         arr[i] = Convert.ToInt32(Console.ReadLine());
     }
-    for (int i = 1; i < arr.Length - 1; i++)
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i] == 0)
+        {
+            first = i;
+            for(int j = i + 1; j < arr.Length; j++)
+            {
+                if (arr[j] == 0)
+                {
+                    last = j;
+                }
+            }
+            i = n;
+        }
+    }
+    for(int i = first; i < last; i++)
     {
         sum += arr[i];
     }
-    Console.WriteLine($"Сумма элемнтов массива: {sum}");
+    Console.WriteLine($"Сумма элементов массива: {sum}");
 }
 void two()
 {
