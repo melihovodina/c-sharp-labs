@@ -1,6 +1,11 @@
 ﻿using System.Text;
+using System.Linq;
+using System.Globalization;
+
 one();
 two();
+three();
+four();
 void one()
 {
     string str = Console.ReadLine();
@@ -45,7 +50,19 @@ void two()
     result = result.Replace("/", "делить");
     Console.WriteLine(result);
 }
-
+void three()
+{
+    string str = "дгвба*абвгд";
+    int index = str.IndexOf('*');
+    if(index != -1)
+    {
+        string sort = String.Concat(str.Substring(0, index).OrderBy(x=>x));
+        str = sort + str.Substring(index);
+    }
+    Console.WriteLine($"Индекс: {index}");
+    Console.WriteLine($"Строка: {str}");
+    
+}
 void four()
 {
     string str1 = Console.ReadLine();
