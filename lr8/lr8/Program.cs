@@ -21,6 +21,8 @@ void two()
 {
     string time = "Текущее время 15:06:11";
     string date = "До нового учебного года осталось 03/01/03";
+    Console.WriteLine(time);
+    Console.WriteLine(date);
     Console.WriteLine(sort(time, ':'));
     Console.WriteLine(sort(date, '/'));
 }
