@@ -9,7 +9,6 @@ four();
 void one()
 {
     string str = Console.ReadLine();
-    Console.WriteLine(str);
     string[] words = str.Split(' ');
     int sharps_num = 0;
     int comp_num = 0;
@@ -22,6 +21,8 @@ void one()
         if (words[i] == "компьютер")
             comp_num++;
     }
+    str = string.Join(" ", words);
+    Console.WriteLine(str);
     Console.WriteLine($"Кол-во слова Pascal: {sharps_num}");
     Console.WriteLine($"Кол-во слова компьютер: {comp_num}");
 }
