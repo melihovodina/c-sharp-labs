@@ -1,51 +1,54 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-Console.Write("Введите количество студентов: ");
-int studentCount = Convert.ToInt32(Console.ReadLine());
-List<Student> students = new List<Student>();
-for (int i = 0; i < studentCount; i++)
-{
-    Student student = new Student();
-    Console.Write("Введите фамилию и инициалы студента: ");
-    student.Name = Console.ReadLine();
-    Console.Write("Введите год рождения студента: ");
-    student.BirthYear = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Введите номер группы студента: ");
-    student.GroupNumber = Convert.ToInt32(Console.ReadLine());
-    student.SemesterGrades = new Grades[4];
-    double totalGrades = 0;
-    for (int j = 0; j < 4; j++)
-    {
-        Console.Write($"Введите оценку за {Enum.GetName(typeof(Grades), j)}: ");
-        student.SemesterGrades[j] = (Grades)Convert.ToInt32(Console.ReadLine());
-        totalGrades += (int)student.SemesterGrades[j];
-    }
-    student.AverageGrade = totalGrades / 4;
-    students.Add(student);
-}
-students = students.OrderBy(s => s.Name).ToList();
-foreach (var student in students)
-{
-    Console.WriteLine($"Студент: {student.Name}, Год рождения: {student.BirthYear}, Номер группы: {student.GroupNumber}, Средний балл: {student.AverageGrade}");
-}
-students = students.OrderByDescending(s => s.AverageGrade).ToList();
-foreach (var student in students)
-{
-    Console.WriteLine($"Студент: {student.Name}, Год рождения: {student.BirthYear}, Номер группы: {student.GroupNumber}, Средний балл: {student.AverageGrade}");
-}
-public enum Grades
-{
-    Physics,
-    Math,
-    ComputerScience,
-    Chemistry
-}
+
 public struct Student
 {
-    public string Name;
+    public string FullName;
     public int BirthYear;
     public int GroupNumber;
-    public Grades[] SemesterGrades;
-    public double AverageGrade;
+    public int Physics;
+    public int Math;
+    public int CS;
+    public int Chemistry;
+    public double AverageMark;
+}
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Введите количество студентов: ");
+        int n = int.Parse(Console.ReadLine());
+        Student[] students = new Student[n];
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write("Введите фамилию и инициалы студента: ");
+            students[i].FullName = Console.ReadLine();
+            Console.Write("Введите год рождения: ");
+            students[i].BirthYear = int.Parse(Console.ReadLine());
+            Console.Write("Введите номер группы: ");
+            students[i].GroupNumber = int.Parse(Console.ReadLine());
+            Console.Write("Введите оценку по физике: ");
+            students[i].Physics = int.Parse(Console.ReadLine());
+            Console.Write("Введите оценку по математике: ");
+            students[i].Math = int.Parse(Console.ReadLine());
+            Console.Write("Введите оценку по информатике: ");
+            students[i].CS = int.Parse(Console.ReadLine());
+            Console.Write("Введите оценку по химии: ");
+            students[i].Chemistry = int.Parse(Console.ReadLine());
+
+            students[i].AverageMark = (students[i].Physics + students[i].Math + students[i].CS + students[i].Chemistry) / 4.0;
+        }
+
+        Console.Write("Введите номер группы для вывода отличников: ");
+        int group = int.Parse(Console.ReadLine());
+
+        var excellentStudents = students.Where(s => s.GroupNumber == group && s.AverageMark >= 4.5).OrderBy(s => s.FullName);
+
+        foreach (var student in excellentStudents)
+        {
+            Console.WriteLine($"Фамилия и инициалы: {student.FullName}, Год рождения: {student.BirthYear}, Номер группы: {student.GroupNumber}, Средний балл: {student.AverageMark}");
+        }
+    }
 }

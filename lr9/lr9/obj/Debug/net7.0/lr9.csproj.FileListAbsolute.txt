@@ -1,0 +1,15 @@
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\bin\Debug\net7.0\lr9.exe
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\bin\Debug\net7.0\lr9.deps.json
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\bin\Debug\net7.0\lr9.runtimeconfig.json
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\bin\Debug\net7.0\lr9.dll
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\bin\Debug\net7.0\lr9.pdb
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\obj\Debug\net7.0\lr9.csproj.AssemblyReference.cache
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\obj\Debug\net7.0\lr9.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\obj\Debug\net7.0\lr9.AssemblyInfoInputs.cache
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\obj\Debug\net7.0\lr9.AssemblyInfo.cs
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\obj\Debug\net7.0\lr9.csproj.CoreCompileInputs.cache
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\obj\Debug\net7.0\lr9.dll
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\obj\Debug\net7.0\refint\lr9.dll
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\obj\Debug\net7.0\lr9.pdb
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\obj\Debug\net7.0\lr9.genruntimeconfig.cache
+C:\code\labs\c#\c-sharp-labs\lr9\lr9\obj\Debug\net7.0\ref\lr9.dll
